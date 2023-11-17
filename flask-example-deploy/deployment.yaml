@@ -18,7 +18,7 @@ spec:
         app: flask
     spec:
       containers:
-      - image: 54.180.139.225/admin/flask-example:latest
+      - image: 54.180.139.225/admin/flask-example:7
         name: flask-example
       imagePullSecrets:
       - name: harbor-cred 
